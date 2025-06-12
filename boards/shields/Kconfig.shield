@@ -1,0 +1,6 @@
+config SHIELD_PLEEBIUS_LEFT
+    def_bool $(shields_list_contains,pleebius_left)
+
+config SHIELD_PLEEBIUS_RIGHT
+    def_bool $(shields_list_contains,pleebius_right)
+

@@ -1,0 +1,16 @@
+if SHIELD_PLEEBIUS_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "pleebius"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_PLEEBIUS_LEFT || SHIELD_PLEEBIUS_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif
