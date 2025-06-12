@@ -1,6 +1,6 @@
 name: zmk-keyboards-pleebius
 build:
   cmake: .
-  kconfig: Kconfig
+  kconfig: Kconfig.defconfig
   settings:
     board_root: .
