@@ -23,18 +23,3 @@ include:
     shield: pleebius_left
   - board: nice_nano_v2
     shield: pleebius_right
-include:
-  - board: nice_nano_v2
-    shield: pleebius_left
-  - board: nice_nano_v2
-    shield: pleebius_right
-include:
-  - board: nice_nano_v2
-    shield: pleebius_left
-  - board: nice_nano_v2
-    shield: pleebius_right
-include:
-  - board: nice_nano_v2
-    shield: pleebius_left
-  - board: nice_nano_v2
-    shield: pleebius_right
