@@ -1,4 +1,8 @@
-#include <pleebius.dtsi>
+#include "pleebius.dtsi"
+
+&default_transform {
+    col-offset = <7>;
+};
 
 &kscan0 {
     col-gpios
